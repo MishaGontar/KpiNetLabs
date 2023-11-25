@@ -1,0 +1,11 @@
+C:\Users\Мішаня\RiderProjects\ConsoleApplication1\Lab2\bin\Debug\Lab2.dll
+C:\Users\Мішаня\RiderProjects\ConsoleApplication1\Lab2\bin\Debug\Lab2.pdb
+C:\Users\Мішаня\RiderProjects\ConsoleApplication1\Lab2\bin\Debug\nunit.framework.dll
+C:\Users\Мішаня\RiderProjects\ConsoleApplication1\Lab2\bin\Debug\nunit.framework.xml
+C:\Users\Мішаня\RiderProjects\ConsoleApplication1\Lab2\obj\Debug\Lab2.csproj.AssemblyReference.cache
+C:\Users\Мішаня\RiderProjects\ConsoleApplication1\Lab2\obj\Debug\Lab2.csproj.CoreCompileInputs.cache
+C:\Users\Мішаня\RiderProjects\ConsoleApplication1\Lab2\obj\Debug\Lab2.csproj.CopyComplete
+C:\Users\Мішаня\RiderProjects\ConsoleApplication1\Lab2\obj\Debug\Lab2.dll
+C:\Users\Мішаня\RiderProjects\ConsoleApplication1\Lab2\obj\Debug\Lab2.pdb
+C:\Users\Мішаня\RiderProjects\ConsoleApplication1\Lab2\bin\Debug\Lab1.exe
+C:\Users\Мішаня\RiderProjects\ConsoleApplication1\Lab2\bin\Debug\Lab1.pdb
