@@ -58,4 +58,53 @@ public class QueueTests
     {
         Assert.Throws<ArgumentNullException>(() => _queue.AddToFront(null));
     }
+    
+    [Test]
+    public void Cleared_EventIsRaisedWhenQueueIsCleared()
+    {
+        var queue = new Queue<int>();
+        queue.Enqueue(1);
+        var wasRaised = false;
+        queue.Cleared += (sender, args) => wasRaised = true;
+
+        queue.Clear();
+        
+        Assert.IsTrue(wasRaised);
+    }
+    
+    [Test]
+    public void Enqueued_EventIsRaisedWhenItemIsAdded()
+    {
+        var queue = new Queue<int>();
+        var wasRaised = false;
+        queue.ItemEnqueued += (sender, args) => wasRaised = true;
+
+        queue.Enqueue(1);
+
+        Assert.IsTrue(wasRaised);
+    }
+
+    [Test]
+    public void Dequeued_EventIsRaisedWhenItemIsRemoved()
+    {
+        var queue = new Queue<int>();
+        queue.Enqueue(1);
+        var wasRaised = false;
+        queue.ItemDequeued += (sender, args) => wasRaised = true;
+
+        queue.Dequeue();
+
+        Assert.IsTrue(wasRaised);
+    }
+    
+    [Test]
+    public void ItemAddedToFront_EventIsRaisedWhenItemIsAddedToFront()
+    {
+        var queue = new Queue<int>();
+        var wasRaised = false;
+        queue.ItemAddedToFront += (sender, args) => wasRaised = true;
+        queue.AddToFront(1);
+
+        Assert.IsTrue(wasRaised);
+    }
 }

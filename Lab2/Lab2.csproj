@@ -43,7 +43,8 @@
         </Reference>
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="Tests.cs"/>
+        <Compile Include="NodeTest.cs" />
+        <Compile Include="QueueTest.cs" />
         <Compile Include="Properties\AssemblyInfo.cs"/>
     </ItemGroup>
     <ItemGroup>
